@@ -1,0 +1,17 @@
+
+###
+// Register
+POST http://codeserver.hopto.org:5000/api/auth/register
+
+###
+// Login
+POST http://codeserver.hopto.org:5000/api/auth/login
+###
+
+// Forgot Password
+POST http://codeserver.hopto.org:5000/api/auth/forgotPassword
+###
+
+// Reset Password
+POST http://codeserver.hopto.org:5000/api/auth/resetPassword/token
+

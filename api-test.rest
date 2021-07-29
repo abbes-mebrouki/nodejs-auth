@@ -2,6 +2,13 @@
 ###
 // Register
 POST http://codeserver.hopto.org:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "ahmed",
+    "password": "passwdwd",
+    "email": "ahmed@email.com"
+}
 
 ###
 // Login
@@ -13,5 +20,5 @@ POST http://codeserver.hopto.org:5000/api/auth/forgotPassword
 ###
 
 // Reset Password
-POST http://codeserver.hopto.org:5000/api/auth/resetPassword/token
+PUT http://codeserver.hopto.org:5000/api/auth/resetPassword/token
 
